@@ -30,7 +30,7 @@ function App() {
           <Countdown date={Date.now() + timeLeft()} onComplete={() => setMessage(["Happy New Year 2024!"])} />
         </div>
         <span className="flex flex-row z-0">
-          <a href="https://github.com/ranggaydtm/Happy-newYear">
+          <a href="https://github.com/ranggaydtm/Happy-newYear" target="_blank" rel="noopener noreferrer">
             <FaGithub size={25} style={{ color: "#FFFFFF" }} />
           </a>
           <span className="text-white text-2 ml-2 font-mono">ranggaydtm</span>
